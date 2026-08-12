@@ -1,4 +1,4 @@
-# 💳 BNY Credit Card Fraud Detection — Machine Learning & Risk Monitoring Platform
+# 💳 Credit Card Fraud Detection — Machine Learning & Risk Monitoring Platform
 
 [![Python 3.14+](https://img.shields.io/badge/Python-3.14%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-v1.9.0-orange.svg)](https://scikit-learn.org/)
