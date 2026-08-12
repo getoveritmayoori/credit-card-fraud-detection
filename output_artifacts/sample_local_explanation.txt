@@ -1,0 +1,5 @@
+1. Flagged Transaction ID: TXN00026768 (Amount: Rs. 459.82, Cardholder: CH_002608).
+2. Primary Risk Trigger: Transaction amount exceeded 30-day average by 6.5x (SHAP score impact: +3.74).
+3. High Velocity & Night Window: High velocity of 11 txns/hr executed during late night window (3:00 hrs).
+4. Anomaly Distance & Entry Mode: Transaction executed at 4178.3 km from registered home address via CHIP entry.
+5. Final Risk Verdict: Model probability of 100.0% significantly exceeds optimal fraud threshold (26.2%), indicating high likelihood of account takeover fraud.

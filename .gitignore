@@ -1,0 +1,13 @@
+# Dependencies & Environment
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# Heavy Generated Artifacts & Models
+BNY_Fraud_Detection_Comprehensive_Report.html
+*.joblib
+*.log
+.DS_Store
+Thumbs.db

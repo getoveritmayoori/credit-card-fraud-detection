@@ -1,0 +1,118 @@
+{
+  "eda": {
+    "total_transactions": 15000,
+    "legitimate_count": 14733,
+    "legitimate_pct": 98.22,
+    "fraud_count": 267,
+    "fraud_pct": 1.78,
+    "imbalance_ratio": 55.17977528089887,
+    "missing_values": {
+      "transaction_id": 0,
+      "cardholder_id": 0,
+      "merchant_id": 0,
+      "merchant_category": 0,
+      "transaction_timestamp": 0,
+      "transaction_hour": 0,
+      "transaction_day_of_week": 0,
+      "transaction_amount_inr": 0,
+      "country_code": 0,
+      "is_international": 0,
+      "pos_entry_mode": 0,
+      "velocity_last_1h": 0,
+      "velocity_last_24h": 0,
+      "avg_txn_amount_30d": 0,
+      "std_txn_amount_30d": 0,
+      "distance_from_home_km": 0,
+      "card_age_days": 0,
+      "credit_limit_inr": 0,
+      "is_fraud": 0
+    },
+    "duplicates": 0
+  },
+  "optimal_threshold": 0.26203420758247375,
+  "opt_precision": 0.9888059701492538,
+  "opt_recall": 0.9925093632958801,
+  "opt_f1": 0.9906542006074942,
+  "fpr_default": 0.020362451639177357,
+  "fpr_optimal": 0.020362451639177357,
+  "cv_results": {
+    "Logistic Regression (Baseline)": {
+      "Precision": [
+        0.9962962962962962,
+        0.007407407407407395
+      ],
+      "Recall": [
+        0.9962962962962962,
+        0.0074074074074073955
+      ],
+      "F1-Score": [
+        0.9962616822429906,
+        0.004578485500529305
+      ],
+      "AUC-ROC": [
+        0.9999635295060039,
+        6.984044001310434e-05
+      ],
+      "AUC-PR": [
+        0.9960905630503352,
+        0.007651635016503958
+      ]
+    },
+    "Random Forest": {
+      "Precision": [
+        1.0,
+        0.0
+      ],
+      "Recall": [
+        0.9925925925925926,
+        0.014814814814814836
+      ],
+      "F1-Score": [
+        0.9962264150943396,
+        0.007547169811320753
+      ],
+      "AUC-ROC": [
+        1.0,
+        0.0
+      ],
+      "AUC-PR": [
+        1.0,
+        4.965068306494546e-17
+      ]
+    },
+    "XGBoost": {
+      "Precision": [
+        0.9888888888888889,
+        0.009072184232530275
+      ],
+      "Recall": [
+        0.9851851851851852,
+        0.018144368465060606
+      ],
+      "F1-Score": [
+        0.9868453535531652,
+        0.004664872019407214
+      ],
+      "AUC-ROC": [
+        0.9999873814533353,
+        1.947664195677127e-05
+      ],
+      "AUC-PR": [
+        0.9993435822093687,
+        0.0009982460998575274
+      ]
+    }
+  },
+  "top_10_features": [
+    "distance_from_home_km",
+    "velocity_last_1h",
+    "velocity_last_24h",
+    "amount_zscore_30d",
+    "amount_vs_avg_ratio",
+    "transaction_amount_inr",
+    "amount_to_limit_ratio",
+    "pos_entry_mode_CNP",
+    "transaction_hour",
+    "is_night_transaction"
+  ]
+}
